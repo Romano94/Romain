@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Externalisation Comptabilité Copropriétés</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-image: url('https://example.com/immeuble.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header h1 {
+            font-size: 3em;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        section {
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+            margin-top: -50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        p {
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.6;
+        }
+        .pricing {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .pricing .package {
+            width: 30%;
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .pricing .package h3 {
+            margin-top: 0;
+            font-size: 1.8em;
+        }
+        .pricing .package p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        .pricing .package .price {
+            font-size: 2.5em;
+            color: #333;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Externalisation de la Comptabilité des Copropriétés</h1>
+    </header>
+    
+    <section>
+        <h2>Notre Solution</h2>
+        <p>
+            Nous proposons une solution d'externalisation de la comptabilité dédiée aux syndics professionnels en France. 
+            Notre service répond au besoin croissant de gérer efficacement la comptabilité des copropriétés, tout en vous 
+            permettant de vous concentrer sur la gestion quotidienne de votre portefeuille. Nous prenons en charge l'ensemble 
+            des processus comptables, de la saisie des opérations à la gestion des rapports financiers annuels.
+        </p>
+        
+        <h2>Nos Tarifs</h2>
+        <p>
+            Consultez notre offre tarifaire pour des solutions adaptées à chaque taille de copropriété. Téléchargez le PDF 
+            pour plus de détails sur nos services et nos tarifs.
+        </p>
+        
+        <div class="pricing">
+            <div class="package">
+                <h3>Petite Copropriété</h3>
+                <p>Jusqu'à 10 lots</p>
+                <div class="price">100€/mois</div>
+            </div>
+            <div class="package">
+                <h3>Copropriété Moyenne</h3>
+                <p>De 11 à 50 lots</p>
+                <div class="price">250€/mois</div>
+            </div>
+            <div class="package">
+                <h3>Grande Copropriété</h3>
+                <p>Plus de 50 lots</p>
+                <div class="price">500€/mois</div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Votre Entreprise - Externalisation Comptabilité Copropriétés</p>
+    </footer>
+</body>
+</html>
